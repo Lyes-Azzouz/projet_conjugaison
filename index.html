@@ -4,8 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet Calculatrice</title>
+    <script src="./index.js" defer></script>
   </head>
   <body>
-    
+    <div>
+      <label for="infinitif">Verbe à l'infinitif</label>
+      <input type="text" id="infinitif" />
+    </div>
+    <div>
+      <select id="select">
+        <option value="present">Présent</option>
+        <option value="futur">Futur</option>
+        <option value="imparfait">Imparfait</option>
+      </select>
+    </div>
+    <button>Conjuger</button>
+    <ul id="resultat"></ul>
   </body>
 </html>
